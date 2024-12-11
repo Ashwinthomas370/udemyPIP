@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Udemy PiP",
+  "version": "1.0",
+  "description": "A Picture-in-Picture extension for the Udemy website.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["https://*.udemy.com/*"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
